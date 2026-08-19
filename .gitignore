@@ -1,1 +1,18 @@
 .env
+
+# Written by the 23 text editor tool before it edits a file
+.backups/
+
+# Written into the project root by 23 (Claude authors these live)
+/pie.py
+/test-pie.py
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
